@@ -282,9 +282,9 @@ class Satori(Coin):
     RPC_PORT = 18819
     REORG_LIMIT = 60
     PEERS = [
-     #   'electrumx1.satorinet.io s t',
-     #   'electrumx2.satorinet.io s t',
-     #   'electrumx3.satorinet.io s t',
+        'electrumx1.satorinet.io s t',
+        'electrumx2.satorinet.io s t',
+        'electrumx3.satorinet.io s t',
     ]
 
     @classmethod
