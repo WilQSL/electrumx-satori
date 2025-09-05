@@ -1,5 +1,5 @@
 
-# Evrmore ElectrumX - A fork of ElectrumX
+# Satori ElectrumX - A fork of ElectrumX
 
 _______________________
 
@@ -7,7 +7,7 @@ _______________________
 **Language:** Python (>= 3.8)  
 **Author:** Neil Booth  
 **RVN/EVR Conversion:** kralverde#0550  
-**Evrmore Support:** Hans_Schmidt#0745
+**Satori Support:** WilQSL#0745
 
 ## Documentation
 
