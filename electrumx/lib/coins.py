@@ -263,14 +263,16 @@ class Evrmore(Coin):
         return final_hash
 
 
-class EvrmoreTestnet(Evrmore):
+class Satori(Coin):
+    NAME = "Satori"
+    SHORTNAME = "SATO"
     NET = "testnet"
     XPUB_VERBYTES = bytes.fromhex("043587CF")
     XPRV_VERBYTES = bytes.fromhex("04358394")
     P2PKH_VERBYTE = bytes.fromhex("6F")
     P2SH_VERBYTES = [bytes.fromhex("C4")]
     WIF_BYTE = bytes.fromhex("EF")
-    GENESIS_HASH = ('0000007b11d0481b2420a7c656ef76775d54ab5b29ee7ea250bc768535693b05')
+    GENESIS_HASH = ('0000009cd13524a0b205646977714262ac05216b3f7ae35ada78d27bc8521292')
     
     CHAIN_SIZE = 0
     CHAIN_SIZE_HEIGHT = 0
@@ -280,8 +282,9 @@ class EvrmoreTestnet(Evrmore):
     RPC_PORT = 18819
     REORG_LIMIT = 60
     PEERS = [
-        'electrum1-testnet.evrmorecoin.org s t',
-        'electrum2-testnet.evrmorecoin.org s t',
+     #   'electrumx1.satorinet.io s t',
+     #   'electrumx2.satorinet.io s t',
+     #   'electrumx3.satorinet.io s t',
     ]
 
     @classmethod
