@@ -7,7 +7,7 @@ _______________________
 **Language:** Python (>= 3.8)  
 **Author:** Neil Booth  
 **RVN/EVR Conversion:** kralverde#0550  
-**Satori Support:** WilQSL#0745
+**Satori Support:** WilQSL
 
 ## Documentation
 
